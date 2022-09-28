@@ -1,3 +1,5 @@
+import math
+
 #  fork the repl.it and create a new git hub repo entitled 
 #Comparison operators
 # Logical operators
@@ -52,23 +54,26 @@ my_bool='white'=='White'.lower()
 print(my_bool)
 
 
-my_bool= 4< 5 or = 5 >= 6
+my_bool= 4< 5 or 5 >= 6
 print(my_bool)
 
 
-my_bool=(55==55) and (5 == 2+3)
+my_bool= (55 == 55) and (5 == 2+3)
 print(my_bool)
 
 
 text= "this sentnce is short"
 my_bool= ('snetance' in text) or ('short' in text)
- print(my_bool)
+print(my_bool)
 
 
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
-
+num1=math.sqrt(49)
+num2=17
+my_bool = num1 >= num2
+print(my_bool)
 
 
 # Comparison Operators Practice  2:
