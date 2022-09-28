@@ -72,7 +72,7 @@ print(my_bool)
 
 num1=math.sqrt(49)
 num2=17
-my_bool = num1 >= num2
+my_bool = num1 > num2 and num1 < num2
 print(my_bool)
 
 
@@ -114,6 +114,13 @@ print(my_bool)
 
 
 
+num1=36
+num2=72/2
+num3=48
+
+my_bool= my_bool = num1 > num2 and num1 < num3
+print(my_bool)
+#False
 
 # Logical Operators Practice #2
 # Create three variables (num1, num2, and num3):
@@ -140,8 +147,13 @@ print(my_bool)
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
 
+word1="success "
+word2="technology"
 
-
+sen="When something is important enough, you do it even if the odds are against you - Elon Musk"
+my_bool= (word1 in sen) or (word2 in sen)
+print(my_bool)
+#False
 
 ########################################decision making in python#####################################
 
