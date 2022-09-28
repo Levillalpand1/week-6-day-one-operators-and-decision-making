@@ -14,13 +14,22 @@
 
 seconds = [1.23, 1.45, 1.02]
 current = 1.11
+seconds.append(current)
+print(seconds)
+
 
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
+seconds.pop(1)
+print(seconds)
 
 
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
+seconds.pop(0)
+seconds.pop(1)
+seconds.pop(1)
+print(seconds)
 
 
 ################################comparison operators#########################
@@ -32,7 +41,28 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # == equal
 # != different or not equal to
 
+#lesson
+my_bool=10==15
+print(my_bool)#false
 
+my_bool=5+5==10-0
+print(my_bool)#true
+
+my_bool='white'=='White'.lower()
+print(my_bool)
+
+
+my_bool= 4< 5 or = 5 >= 6
+print(my_bool)
+
+
+my_bool=(55==55) and (5 == 2+3)
+print(my_bool)
+
+
+text= "this sentnce is short"
+my_bool= ('snetance' in text) or ('short' in text)
+ print(my_bool)
 
 
 # Comparison Operators Practice  1:
